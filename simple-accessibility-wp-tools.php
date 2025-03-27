@@ -3,7 +3,7 @@
  * Plugin Name: Simple Accessibility Tools
  * Plugin URI: https://foundationstudio.pl
  * Description: A lightweight accessibility toolbar that provides various accessibility options like font resizing, high contrast, grayscale, and more.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Adam Sarba
  * Author URI: https://instagram.com/adamsarba
  * Text Domain: simple-accessibility-wp-tools

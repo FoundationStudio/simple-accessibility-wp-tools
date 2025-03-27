@@ -4,7 +4,7 @@
  */
 ?>
 <li class="menu-item menu-item-has-children sat-toolbar-wrapper">
-    <a href="#" aria-role="button" aria-label="<?php esc_attr_e('Accessibility tools', 'simple-accessibility-wp-tools'); ?>">
+    <a id="accessibility-tools" href="#" aria-role="button" aria-label="<?php esc_attr_e('Accessibility tools', 'simple-accessibility-wp-tools'); ?>">
         <img src="<?php echo esc_url(SAT_PLUGIN_URL . 'assets/img/icon-accessibility.svg'); ?>" width="20" height="20" alt="" />
         <span class="screen-reader-text"><?php esc_html_e('Accessibility', 'simple-accessibility-wp-tools'); ?></span>
     </a>
