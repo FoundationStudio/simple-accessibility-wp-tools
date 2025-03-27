@@ -4,68 +4,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simple Accessibility Tools 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-accessibility-wp-tools\n"
-"Language-Team: Polski\n"
+"POT-Creation-Date: 2025-03-27 20:35+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-03-27T12:00:00+00:00\n"
-"PO-Revision-Date: 2024-03-27T12:00:00+00:00\n"
-"Language: pl_PL\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: Poedit 3.5\n"
 "X-Domain: simple-accessibility-wp-tools\n"
 
 #: templates/toolbar.php:7
 msgid "Close menu"
-msgstr "Zamknij menu"
+msgstr ""
 
 #: templates/toolbar.php:13
 msgid "Accessibility tools"
-msgstr "Narzędzia dostępności"
+msgstr ""
 
 #: templates/toolbar.php:17
 msgid "Increase text"
-msgstr "Zwiększ tekst"
+msgstr ""
 
 #: templates/toolbar.php:19
 msgid "Increase text size"
-msgstr "Zwiększ rozmiar tekstu"
+msgstr ""
 
 #: templates/toolbar.php:24
 msgid "Decrease text"
-msgstr "Zmniejsz tekst"
+msgstr ""
 
 #: templates/toolbar.php:26
 msgid "Decrease text size"
-msgstr "Zmniejsz rozmiar tekstu"
+msgstr ""
 
-#: templates/toolbar.php:31
-#: templates/toolbar.php:38
-#: templates/toolbar.php:45
-#: templates/toolbar.php:52
-#: templates/toolbar.php:59
+#: templates/toolbar.php:31 templates/toolbar.php:38 templates/toolbar.php:45
+#: templates/toolbar.php:52 templates/toolbar.php:59
 msgid "Toggle"
-msgstr "Przełącz"
+msgstr ""
 
 #: templates/toolbar.php:33
 msgid "Grayscale"
-msgstr "Skala szarości"
+msgstr ""
 
 #: templates/toolbar.php:40
 msgid "High contrast"
-msgstr "Wysoki kontrast"
+msgstr ""
 
 #: templates/toolbar.php:47
 msgid "Underlined links"
-msgstr "Podkreślone linki"
+msgstr ""
 
 #: templates/toolbar.php:54
 msgid "Readable text"
-msgstr "Czytelny tekst"
+msgstr ""
 
 #: templates/toolbar.php:61
 msgid "Reset"
-msgstr "Wyzeruj"
+msgstr ""
 
 #: templates/toolbar.php:69
 msgid "Accessibility"
-msgstr "Dostępność"
+msgstr ""
