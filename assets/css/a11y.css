@@ -1,0 +1,268 @@
+/**
+ * Simple Accessibility Tools - Main Styles
+ */
+
+/* Dialog and Button Styles
+--------------------------------------------- */
+.menu-item.a11y-item > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.menu-item.a11y-item > a.active {
+  text-decoration: underline;
+}
+
+.menu-item.a11y-item > a.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Screen Reader Text
+--------------------------------------------- */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+/* Grayscale Mode
+--------------------------------------------- */
+.a11y-grayscale {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray;
+}
+
+/* High Contrast Mode
+--------------------------------------------- */
+body.a11y-high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+body.a11y-high-contrast * {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+body.a11y-high-contrast a {
+  color: #0080ff !important;
+}
+
+body.a11y-high-contrast a:visited {
+  color: #0ff !important;
+}
+
+body.a11y-high-contrast a:hover {
+  background: #400000 !important;
+}
+
+body.a11y-high-contrast img {
+  background: grey !important;
+}
+
+body.a11y-high-contrast button,
+body.a11y-high-contrast input,
+body.a11y-high-contrast select,
+body.a11y-high-contrast textarea {
+  border: 1px solid #fff !important;
+  background: #600040 !important;
+}
+
+/* Font Resize Classes
+--------------------------------------------- */
+body.a11y-resize-font-200 {
+  --a11y-font-size: 3.2rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-190 {
+  --a11y-font-size: 3.04rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-180 {
+  --a11y-font-size: 2.88rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-170 {
+  --a11y-font-size: 2.72rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-160 {
+  --a11y-font-size: 2.56rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-150 {
+  --a11y-font-size: 2.4rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-140 {
+  --a11y-font-size: 2.24rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-130 {
+  --a11y-font-size: 2.08rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+body.a11y-resize-font-120 {
+  --a11y-font-size: 1.92rem;
+  font-size: var(--a11y-font-size) !important;
+}
+
+/* Font Size Adjustments for Elements
+--------------------------------------------- */
+[class*="a11y-resize-font"] h1 {
+  font-size: 2em !important;
+}
+[class*="a11y-resize-font"] h2 {
+  font-size: 1.5em !important;
+}
+[class*="a11y-resize-font"] h3 {
+  font-size: 1.17em !important;
+}
+[class*="a11y-resize-font"] h4 {
+  font-size: 1em !important;
+}
+[class*="a11y-resize-font"] h5 {
+  font-size: 0.83em !important;
+}
+[class*="a11y-resize-font"] h6 {
+  font-size: 0.67em !important;
+}
+
+[class*="a11y-resize-font"] p,
+[class*="a11y-resize-font"] a[class*="button"],
+[class*="a11y-resize-font"] li:not(.a11y-item),
+[class*="a11y-resize-font"] dt,
+[class*="a11y-resize-font"] dd,
+[class*="a11y-resize-font"] blockquote,
+[class*="a11y-resize-font"] code,
+[class*="a11y-resize-font"] pre,
+[class*="a11y-resize-font"] span:not(.screen-reader-text),
+[class*="a11y-resize-font"] input,
+[class*="a11y-resize-font"] textarea,
+[class*="a11y-resize-font"] select,
+[class*="a11y-resize-font"] label,
+[class*="a11y-resize-font"] legend {
+  font-size: var(--a11y-font-size) !important;
+}
+
+/* body.a11y-resize-font-200 {
+  font-size: 200% !important;
+}
+
+body.a11y-resize-font-190 {
+  font-size: 190% !important;
+}
+
+body.a11y-resize-font-180 {
+  font-size: 180% !important;
+}
+
+body.a11y-resize-font-170 {
+  font-size: 170% !important;
+}
+
+body.a11y-resize-font-160 {
+  font-size: 160% !important;
+}
+
+body.a11y-resize-font-150 {
+  font-size: 150% !important;
+}
+
+body.a11y-resize-font-140 {
+  font-size: 140% !important;
+}
+
+body.a11y-resize-font-130 {
+  font-size: 130% !important;
+}
+
+body.a11y-resize-font-120 {
+  font-size: 120% !important;
+} */
+
+/* Underlined Links
+--------------------------------------------- */
+body.a11y-links-underline a {
+  text-decoration: underline !important;
+}
+
+body.a11y-links-underline a * {
+  text-decoration: underline !important;
+}
+
+/* Readable Font
+--------------------------------------------- */
+body.a11y-readable-font,
+body.a11y-readable-font * {
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+/* WordPress Admin Bar Compatibility
+--------------------------------------------- */
+body.admin-bar .a11y-dialog {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar .a11y-dialog {
+    top: 46px;
+  }
+}
+
+/* Utility Classes
+--------------------------------------------- */
+.no-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.clear {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Focus Styles
+--------------------------------------------- */
+.a11y-item a:focus,
+button:focus {
+  outline: 2px solid #0080ff;
+  outline-offset: 2px;
+}
